@@ -101,7 +101,7 @@ CREATE TABLE `Person` (
   `id` int NOT NULL AUTO_INCREMENT,
   `given_name` varchar(50) DEFAULT NULL,
   `family_name` varchar(50) DEFAULT NULL,
-  `date_of_birth` datetime DEFAULT NULL,
+  `date_of_birth` date DEFAULT NULL,
   `place_of_birth` varchar(50) DEFAULT NULL,
   `id_city_fk` int DEFAULT NULL,
   PRIMARY KEY (`id`),
